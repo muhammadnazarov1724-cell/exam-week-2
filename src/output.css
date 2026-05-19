@@ -184,11 +184,35 @@
   .h-\[100\] {
     height: 100;
   }
+  .w-\[88px\] {
+    width: 88px;
+  }
+  .w-\[90px\] {
+    width: 90px;
+  }
+  .max-w-\[1200px\] {
+    max-width: 1200px;
+  }
+  .max-w-\[1300px\] {
+    max-width: 1300px;
+  }
+  .max-w-\[1350px\] {
+    max-width: 1350px;
+  }
+  .max-w-\[1400px\] {
+    max-width: 1400px;
+  }
+  .flex-col {
+    flex-direction: column;
+  }
   .items-baseline {
     align-items: baseline;
   }
   .items-center {
     align-items: center;
+  }
+  .justify-between {
+    justify-content: space-between;
   }
   .justify-center {
     justify-content: center;
@@ -199,11 +223,17 @@
   .gap-\[7px\] {
     gap: 7px;
   }
+  .gap-\[8px\] {
+    gap: 8px;
+  }
   .gap-\[10px\] {
     gap: 10px;
   }
   .gap-\[20px\] {
     gap: 20px;
+  }
+  .gap-\[30px\] {
+    gap: 30px;
   }
   .gap-\[150px\] {
     gap: 150px;
@@ -214,8 +244,17 @@
   .bg-\[\#A98C64\] {
     background-color: #A98C64;
   }
+  .p-\[15px\] {
+    padding: 15px;
+  }
   .font-serif {
     font-family: var(--font-serif);
+  }
+  .text-\[12px\] {
+    font-size: 12px;
+  }
+  .text-\[18px\] {
+    font-size: 18px;
   }
   .text-\[20px\] {
     font-size: 20px;
@@ -226,9 +265,22 @@
   .text-\[24px\] {
     font-size: 24px;
   }
+  .font-\[500\] {
+    --tw-font-weight: 500;
+    font-weight: 500;
+  }
   .font-bold {
     --tw-font-weight: var(--font-weight-bold);
     font-weight: var(--font-weight-bold);
+  }
+  .text-\[\#4D8F76\] {
+    color: #4D8F76;
+  }
+  .text-\[\#493E3E\] {
+    color: #493E3E;
+  }
+  .text-\[\#756D6D\] {
+    color: #756D6D;
   }
   .text-\[white\] {
     color: white;
@@ -236,9 +288,42 @@
   .text-white {
     color: var(--color-white);
   }
+  .underline {
+    text-decoration-line: underline;
+  }
+  .sm\:p-\[15px\] {
+    @media (width >= 40rem) {
+      padding: 15px;
+    }
+  }
+  .lg\:my-\[40px\] {
+    @media (width >= 64rem) {
+      margin-block: 40px;
+    }
+  }
+  .lg\:my-\[50px\] {
+    @media (width >= 64rem) {
+      margin-block: 50px;
+    }
+  }
   .lg\:flex {
     @media (width >= 64rem) {
       display: flex;
+    }
+  }
+  .lg\:hidden {
+    @media (width >= 64rem) {
+      display: none;
+    }
+  }
+  .lg\:w-\[1\] {
+    @media (width >= 64rem) {
+      width: 1;
+    }
+  }
+  .lg\:w-\[140px\] {
+    @media (width >= 64rem) {
+      width: 140px;
     }
   }
   .lg\:items-center {
@@ -249,6 +334,16 @@
   .lg\:gap-\[150px\] {
     @media (width >= 64rem) {
       gap: 150px;
+    }
+  }
+  .lg\:p-\[0\] {
+    @media (width >= 64rem) {
+      padding: 0;
+    }
+  }
+  .lg\:p-\[0px\] {
+    @media (width >= 64rem) {
+      padding: 0px;
     }
   }
   .lg\:text-\[22px\] {
