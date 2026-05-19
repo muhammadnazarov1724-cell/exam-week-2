@@ -1,50 +1,87 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./src/output.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-<body class="font-serif">
-
+    <link rel="stylesheet" href="./src/output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body class="font-serif">
     <header class="bg-[#A98C64] h-[50px]">
-        <div class="max-[1200px] m-auto h-[100%] flex items-center gap-[10px] justify-center gap-[250px]">
-            <div class="flex items-center gap-[7px]">
-                <div>
-                    <img src="./images/Vector.png" alt="">
+      <div
+        class="max-[1200px] m-auto h-[100%] flex items-center gap-[10px] justify-center gap-[250px]"
+      >
+        <div class="flex items-center gap-[7px]">
+          <div>
+            <img src="./images/Vector.png" alt="" />
+          </div>
+          <p class="text-white font-bold lg:text-[22px]">
+            Скидка 10% при заказе от 2х недель
+          </p>
+        </div>
+        <div class="hidden lg:flex lg:items-center gap-[7px]">
+          <a href="#" class="text-white text-[22px] font-bold">Заказать</a>
+          <i class="fa-solid text-[white] text-[20px] fa-arrow-right"></i>
+        </div>
+      </div>
+    </header>
+    <header
+      class="max-w-[1350px] m-auto flex items-center justify-between p-[20px] lg:p-[0px] lg:my-[40px]"
+    >
+      <div>
+        <img
+          class="w-[90px] lg:w-[140px]"
+          src="./images/Group 161.png"
+          alt=""
+        />
+      </div>
+      <nav class="hidden lg:flex font-[500] text-[18px] gap-[30px]">
+        <p>Подбор рациона</p>
+        <p>Программы питания</p>
+        <p>О нас</p>
+        <p>Доставка</p>
+        <p>Акции</p>
+        <p>FAQ</p>
+        <p>Отзывы</p>
+      </nav>
+      <div class="hidden lg:flex flex-col gap-[8px] items-center">
+        <p class="text-[#4D8F76] font-[500] underline">Перезвоните мне</p>
+        <p class="text-[#493E3E] text-[24px] font-bold">+7 988 500-1-700</p>
+        <p class="text-[#756D6D] text-[12px] font-[500]">с 09:00 до 21:00</p>
+      </div>
+      <div class="lg:hidden">
+        <img src="./images/Group 82.png" alt="" />
+      </div>
+    </header>
+
+    <main>
+      <section class="flex flex-col gap-[40px] p-[20px] lg:flex-row max-w-[1350px] m-auto lg:items-center lg:justify-between">
+        <div class="flex flex-col gap-[40px] lg:w-[50%]">
+            <div class="flex flex-col gap-[10px]">
+                <p class="font-bold text-[28px] lg:text-[60px]">Прогрессивное питание на каждый день</p>
+                <p class="text-[#493E3E] font-[500] lg:hidden">Сбалансированный рацион в современном формате — Супер-боул</p>
+            </div>
+          <div class="flex gap-[20px] lg:gap-[50px]">
+            <button class="bg-[#4D8F76] text-[14px] font-bold text-[white] w-[180px] py-[20px] rounded-[40px]">Подобрать питание</button>
+            <button class="text-[14px] font-bold text-[#4D8F76] lg:border lg:border-[2px] lg:border-[#4D8F76] rounded-4xl lg:p-[20px]">Получить консультацию</button>
+          </div>
                 </div>
-                <p class="text-white font-bold lg:text-[22px]">Скидка 10% при заказе от 2х недель</p>
+          <div class="relative m-auto">
+            <div class="absolute bottom-0 z-[-1] ">
+                <img class="lg:w-[270px]" src="./images/Ellipse 28.png" alt="">
             </div>
-            <div class="hidden lg:flex lg:items-center gap-[7px]">
-                <a href="#" class="text-white text-[22px] font-bold">Заказать</a>
-                <i class="fa-solid text-[white] text-[20px] fa-arrow-right"></i>
+            <div>
+                <img class="w-[600px]" src="./images/porapoest-top 1.png" alt="">
             </div>
-        </div>
-    </header>
-    <header class="max-w-[1350px] m-auto flex items-center justify-between p-[15px] lg:p-[0px] lg:my-[40px]">
-        <div>
-            <img class="w-[90px] lg:w-[140px]" src="./images/Group 161.png" alt="">
-        </div>
-        <nav class="hidden lg:flex font-[500] text-[18px] gap-[30px]">
-            <p>Подбор рациона</p>
-            <p>Программы питания</p>
-            <p>О нас</p>
-            <p>Доставка</p>
-            <p>Акции</p>
-            <p>FAQ</p>
-            <p>Отзывы</p>
-        </nav>
-        <div class="hidden lg:flex flex-col gap-[8px] items-center">
-            <p class="text-[#4D8F76] font-[500] underline">Перезвоните мне</p>
-            <p class="text-[#493E3E] text-[24px] font-bold ">+7 988 500-1-700</p>
-            <p class="text-[#756D6D] text-[12px] font-[500]">с 09:00 до 21:00</p>
-        </div>
-        <div class="lg:hidden">
-            <img src="./images/Group 82.png" alt="">
-        </div>
-    </header>
-    
-</body>
+          </div>
+      </section>
+    </main>
+  </body>
 </html>
