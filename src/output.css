@@ -196,6 +196,12 @@
   .my-\[50px\] {
     margin-block: 50px;
   }
+  .my-\[60p\] {
+    margin-block: 60p;
+  }
+  .my-\[60px\] {
+    margin-block: 60px;
+  }
   .my-\[70px\] {
     margin-block: 70px;
   }
@@ -292,8 +298,14 @@
   .gap-\[17px\] {
     gap: 17px;
   }
+  .gap-\[20\] {
+    gap: 20;
+  }
   .gap-\[20px\] {
     gap: 20px;
+  }
+  .gap-\[20x\] {
+    gap: 20x;
   }
   .gap-\[25px\] {
     gap: 25px;
@@ -449,6 +461,9 @@
   .text-center {
     text-align: center;
   }
+  .text-justify {
+    text-align: justify;
+  }
   .font-serif {
     font-family: var(--font-serif);
   }
@@ -514,6 +529,9 @@
   }
   .text-\[20xp\] {
     color: 20xp;
+  }
+  .text-\[21p\] {
+    color: 21p;
   }
   .text-\[white\] {
     color: white;
