@@ -710,6 +710,9 @@
     font-size: var(--text-2xl);
     line-height: var(--tw-leading, var(--text-2xl--line-height));
   }
+  .text-\[10px\] {
+    font-size: 10px;
+  }
   .text-\[12px\] {
     font-size: 12px;
   }
@@ -1186,6 +1189,16 @@
     @media (width >= 64rem) {
       font-size: var(--text-5xl);
       line-height: var(--tw-leading, var(--text-5xl--line-height));
+    }
+  }
+  .lg\:text-\[11px\] {
+    @media (width >= 64rem) {
+      font-size: 11px;
+    }
+  }
+  .lg\:text-\[13px\] {
+    @media (width >= 64rem) {
+      font-size: 13px;
     }
   }
   .lg\:text-\[21px\] {
