@@ -182,6 +182,12 @@
   .relative {
     position: relative;
   }
+  .top-\[20px\] {
+    top: 20px;
+  }
+  .top-\[50px\] {
+    top: 50px;
+  }
   .bottom-0 {
     bottom: calc(var(--spacing) * 0);
   }
@@ -190,6 +196,9 @@
   }
   .m-auto {
     margin: auto;
+  }
+  .mx-\[10px\] {
+    margin-inline: 10px;
   }
   .mx-\[15px\] {
     margin-inline: 15px;
@@ -226,6 +235,9 @@
   }
   .my-\[80px\] {
     margin-block: 80px;
+  }
+  .my-\[150px\] {
+    margin-block: 150px;
   }
   .flex {
     display: flex;
@@ -266,6 +278,15 @@
   .h-\[420px\] {
     height: 420px;
   }
+  .h-\[740px\] {
+    height: 740px;
+  }
+  .h-\[760px\] {
+    height: 760px;
+  }
+  .h-\[780px\] {
+    height: 780px;
+  }
   .h-\[800p\] {
     height: 800p;
   }
@@ -275,8 +296,14 @@
   .h-\[850px\] {
     height: 850px;
   }
+  .w-\[80\%\] {
+    width: 80%;
+  }
   .w-\[80px\] {
     width: 80px;
+  }
+  .w-\[85\%\] {
+    width: 85%;
   }
   .w-\[90px\] {
     width: 90px;
@@ -329,6 +356,12 @@
   .max-w-\[134\] {
     max-width: 134;
   }
+  .max-w-\[1200p\] {
+    max-width: 1200p;
+  }
+  .max-w-\[1250px\] {
+    max-width: 1250px;
+  }
   .max-w-\[1300px\] {
     max-width: 1300px;
   }
@@ -358,6 +391,9 @@
   }
   .items-center {
     align-items: center;
+  }
+  .justify-around {
+    justify-content: space-around;
   }
   .justify-between {
     justify-content: space-between;
@@ -529,6 +565,9 @@
   .bg-white {
     background-color: var(--color-white);
   }
+  .p-\[1\] {
+    padding: 1;
+  }
   .p-\[5p\] {
     padding: 5p;
   }
@@ -540,6 +579,9 @@
   }
   .p-\[12px\] {
     padding: 12px;
+  }
+  .p-\[15px\] {
+    padding: 15px;
   }
   .p-\[17px\] {
     padding: 17px;
@@ -721,6 +763,9 @@
   .text-\[white\] {
     color: white;
   }
+  .text-black {
+    color: var(--color-black);
+  }
   .text-white {
     color: var(--color-white);
   }
@@ -762,6 +807,36 @@
       }
     }
   }
+  .sm\:mx-\[10px\] {
+    @media (width >= 40rem) {
+      margin-inline: 10px;
+    }
+  }
+  .lg\:top-\[-50px\] {
+    @media (width >= 64rem) {
+      top: -50px;
+    }
+  }
+  .lg\:top-\[-60px\] {
+    @media (width >= 64rem) {
+      top: -60px;
+    }
+  }
+  .lg\:top-\[-62px\] {
+    @media (width >= 64rem) {
+      top: -62px;
+    }
+  }
+  .lg\:top-\[-63px\] {
+    @media (width >= 64rem) {
+      top: -63px;
+    }
+  }
+  .lg\:top-\[-70px\] {
+    @media (width >= 64rem) {
+      top: -70px;
+    }
+  }
   .lg\:mx-\[30px\] {
     @media (width >= 64rem) {
       margin-inline: 30px;
@@ -770,6 +845,11 @@
   .lg\:my-\[40px\] {
     @media (width >= 64rem) {
       margin-block: 40px;
+    }
+  }
+  .lg\:my-\[150px\] {
+    @media (width >= 64rem) {
+      margin-block: 150px;
     }
   }
   .lg\:flex {
@@ -807,6 +887,11 @@
       height: 200px;
     }
   }
+  .lg\:h-\[440px\] {
+    @media (width >= 64rem) {
+      height: 440px;
+    }
+  }
   .lg\:h-\[680px\] {
     @media (width >= 64rem) {
       height: 680px;
@@ -825,6 +910,11 @@
   .lg\:w-\[30\%\] {
     @media (width >= 64rem) {
       width: 30%;
+    }
+  }
+  .lg\:w-\[35\%\] {
+    @media (width >= 64rem) {
+      width: 35%;
     }
   }
   .lg\:w-\[40\%\] {
@@ -857,6 +947,11 @@
       width: 270px;
     }
   }
+  .lg\:w-\[320px\] {
+    @media (width >= 64rem) {
+      width: 320px;
+    }
+  }
   .lg\:w-\[400px\] {
     @media (width >= 64rem) {
       width: 400px;
@@ -870,6 +965,11 @@
   .lg\:grid-cols-1 {
     @media (width >= 64rem) {
       grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+  }
+  .lg\:grid-cols-2 {
+    @media (width >= 64rem) {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
     }
   }
   .lg\:grid-cols-3 {
@@ -937,6 +1037,11 @@
       gap: 100px;
     }
   }
+  .lg\:gap-\[150px\] {
+    @media (width >= 64rem) {
+      gap: 150px;
+    }
+  }
   .lg\:rounded-3xl {
     @media (width >= 64rem) {
       border-radius: var(--radius-3xl);
@@ -993,6 +1098,11 @@
   .lg\:px-\[25px\] {
     @media (width >= 64rem) {
       padding-inline: 25px;
+    }
+  }
+  .lg\:px-\[30px\] {
+    @media (width >= 64rem) {
+      padding-inline: 30px;
     }
   }
   .lg\:px-\[70px\] {
